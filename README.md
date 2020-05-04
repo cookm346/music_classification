@@ -64,8 +64,9 @@ As we can see, the random forest model performed best with over 95% accuracy. Th
 
 Given that the random forest model was best, we can also take a look at the confusion matrix for the random forest model:
 
+
 |               |               | Reference     |
-| ------------- |:-------------:| -----:| -----:|
+| ------------- |-------------| -----| -----|
 |               |         | folk   | rap   |
 | Prediction    | folk    |   59.2 |   2.4 |
 |               | rap     |    1.2 |    37.2 |
@@ -123,13 +124,13 @@ Given that the random forest model was best again, we can also take a look at th
 
 
 |               |               | Reference     |
-| ------------- |:-------------:| -----:| -----:| -----:| -----:| -----:|
-|               |               | electronic   | folk   |  jazz   | rap   | rock
-|               | electronic    |   17.0       |   0.7  |   0.8   |    0.8 |      1.7
-|               | folk          |    0.3       |   12.4 |   2.8    |   0.7    |   4.0 
-| Prediction    | jazz          |    0.4       |   2.9  |  15.0   |    0.4 |      1.7
-|               | rap           |    1.1       |   0.5  |   0.5    |  17.4    |   0.8 
-|               | rock          |    1.2       |   3.3  |  1.0   |    0.7 |     12.0
+| ------------- |-------------| -----| -----| -----| -----| -----|
+|               |               | electronic   | folk   |  jazz   | rap   | rock |
+|               | electronic    |   17.0       |   0.7  |   0.8   |    0.8 |      1.7 |
+|               | folk          |    0.3       |   12.4 |   2.8    |   0.7    |   4.0  |
+| Prediction    | jazz          |    0.4       |   2.9  |  15.0   |    0.4 |      1.7 |
+|               | rap           |    1.1       |   0.5  |   0.5    |  17.4    |   0.8  |
+|               | rock          |    1.2       |   3.3  |  1.0   |    0.7 |     12.0 |
 
 
 
