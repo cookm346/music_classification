@@ -65,7 +65,7 @@ As we can see, the random forest model performed best with over 95% accuracy. Th
 Given that the random forest model was best, we can also take a look at the confusion matrix for the random forest model:
 
 
-|               |               | Reference     |
+|               |               | Reference |    |
 | ------------- |-------------| -----| -----|
 |               |         | folk   | rap   |
 | Prediction    | folk    |   59.2 |   2.4 |
