@@ -123,7 +123,7 @@ Given that the random forest model was best again, we can also take a look at th
 
 
 
-|               |               | Reference     |
+|               |               |         |         |             |     | Reference     |
 | ------------- |-------------| -----| -----| -----| -----| -----|
 |               |               | electronic   | folk   |  jazz   | rap   | rock |
 |               | electronic    |   17.0       |   0.7  |   0.8   |    0.8 |      1.7 |
